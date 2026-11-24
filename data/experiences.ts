@@ -26,10 +26,72 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
+    slug: 'shankar-packaging',
+    role: 'Junior Executive – Digitization (Data Analyst)',
+    company: 'Shankar Packagings',
+    period: 'Mar 2026 – Present',
+    location: 'Vadodara, Gujarat',
+    summary:
+      'Supported packaging operations with data-driven reporting, production analytics, and inventory insights to improve efficiency and decision-making.',
+    responsibilities: [
+      'Built Excel and Power BI reports to track production output, machine utilization, and daily packaging targets',
+      'Analyzed inventory and raw material consumption data to reduce wastage and stock discrepancies',
+      'Created automated dashboards for management to monitor order fulfillment and dispatch timelines',
+      'Performed data cleaning and validation on production logs collected from shop-floor systems',
+      'Prepared weekly and monthly performance summaries for operations and sales teams',
+      'Collaborated with warehouse and production teams to align reporting with on-ground workflows',
+      'Supported ad-hoc analysis for cost optimization, batch tracking, and supplier performance',
+      'Documented reporting standards and helped standardize KPI definitions across departments',
+    ],
+    achievements: [
+      'Reporting Efficiency: Automated recurring production reports',
+      'Inventory Accuracy: Improved stock tracking visibility',
+      'Operations Support: Faster decision-making for dispatch planning',
+    ],
+    tools: ['Excel', 'Power BI', 'Power Query', 'SQL', 'Python', 'Google Sheets'],
+    journey: [
+      {
+        title: 'Learning the Operations',
+        period: 'Mar – Apr 2026',
+        description:
+          'Started by understanding packaging workflows, production lines, inventory movement, and the key metrics leadership tracked on a daily basis.',
+      },
+      {
+        title: 'Building Core Reports',
+        period: 'May – Aug 2026',
+        description:
+          'Developed recurring production and inventory reports, cleaned operational data, and introduced dashboard views for faster operational reviews.',
+      },
+      {
+        title: 'Scaling Analytics Support',
+        period: 'Sep 2026 – Present',
+        description:
+          'Expanded reporting to dispatch planning, supplier tracking, and management summaries while working closely with warehouse and production teams.',
+      },
+    ],
+    images: [
+      {
+        src: '/companies/shankar-packaging/photo-1.jpeg',
+        alt: 'Shankar Packagings workspace',
+        caption: 'Workspace at Shankar Packagings',
+      },
+      {
+        src: '/companies/shankar-packaging/photo-2.jpeg',
+        alt: 'Production reporting dashboard',
+        caption: 'Production reporting dashboard',
+      },
+      {
+        src: '/companies/shankar-packaging/photo-3.jpeg',
+        alt: 'Team collaboration session',
+        caption: 'Collaborating with the operations team',
+      },
+    ],
+  },
+  {
     slug: 'jhex-consulting',
     role: 'Junior Data Analyst – Technical Department',
     company: 'JHEx Consulting LLP',
-    period: 'Nov 2025 – Present',
+    period: 'Nov 2025 – Mar 2026',
     location: 'Ahmedabad',
     summary:
       'Building interactive Power BI dashboards, performing data transformations with Power Query, and supporting business reporting through SQL and Python analysis.',
@@ -66,7 +128,7 @@ export const experiences: Experience[] = [
       },
       {
         title: 'SQL & Cross-Team Collaboration',
-        period: 'Feb 2026 – Present',
+        period: 'Feb – Mar 2026',
         description:
           'Expanded work into MySQL data extraction, ad-hoc Excel analysis, and Python-based tasks while collaborating with business teams to improve reporting accuracy.',
       },
@@ -101,68 +163,6 @@ export const experiences: Experience[] = [
         src: '/companies/jhex-consulting/photo-6.jpg',
         alt: 'JHEX Consulting team snapshot',
         caption: 'Team snapshot at JHEX Consulting',
-      },
-    ],
-  },
-  {
-    slug: 'shankar-packaging',
-    role: 'Data Analyst',
-    company: 'Shankar Packaging',
-    period: 'Jun 2024 – Oct 2025',
-    location: 'Vadodara, Gujarat',
-    summary:
-      'Supported packaging operations with data-driven reporting, production analytics, and inventory insights to improve efficiency and decision-making.',
-    responsibilities: [
-      'Built Excel and Power BI reports to track production output, machine utilization, and daily packaging targets',
-      'Analyzed inventory and raw material consumption data to reduce wastage and stock discrepancies',
-      'Created automated dashboards for management to monitor order fulfillment and dispatch timelines',
-      'Performed data cleaning and validation on production logs collected from shop-floor systems',
-      'Prepared weekly and monthly performance summaries for operations and sales teams',
-      'Collaborated with warehouse and production teams to align reporting with on-ground workflows',
-      'Supported ad-hoc analysis for cost optimization, batch tracking, and supplier performance',
-      'Documented reporting standards and helped standardize KPI definitions across departments',
-    ],
-    achievements: [
-      'Reporting Efficiency: Automated recurring production reports',
-      'Inventory Accuracy: Improved stock tracking visibility',
-      'Operations Support: Faster decision-making for dispatch planning',
-    ],
-    tools: ['Excel', 'Power BI', 'Power Query', 'SQL', 'Python', 'Google Sheets'],
-    journey: [
-      {
-        title: 'Learning the Operations',
-        period: 'Jun – Aug 2024',
-        description:
-          'Started by understanding packaging workflows, production lines, inventory movement, and the key metrics leadership tracked on a daily basis.',
-      },
-      {
-        title: 'Building Core Reports',
-        period: 'Sep 2024 – Mar 2025',
-        description:
-          'Developed recurring production and inventory reports, cleaned operational data, and introduced dashboard views for faster operational reviews.',
-      },
-      {
-        title: 'Scaling Analytics Support',
-        period: 'Apr – Oct 2025',
-        description:
-          'Expanded reporting to dispatch planning, supplier tracking, and management summaries while working closely with warehouse and production teams.',
-      },
-    ],
-    images: [
-      {
-        src: '/companies/shankar-packaging/photo-1.jpeg',
-        alt: 'Shankar Packaging workspace',
-        caption: 'Workspace at Shankar Packaging',
-      },
-      {
-        src: '/companies/shankar-packaging/photo-2.jpeg',
-        alt: 'Production reporting dashboard',
-        caption: 'Production reporting dashboard',
-      },
-      {
-        src: '/companies/shankar-packaging/photo-3.jpeg',
-        alt: 'Team collaboration session',
-        caption: 'Collaborating with the operations team',
       },
     ],
   },

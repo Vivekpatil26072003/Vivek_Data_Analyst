@@ -31,7 +31,7 @@ export function AboutSection() {
             About Me
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            I'm a Junior Data Analyst specializing in Power BI dashboards, SQL data extraction, and business reporting. Currently at JHEx Consulting LLP, I transform raw data using Power Query, create interactive dashboards with DAX measures, and extract complex data from MySQL databases. With hands-on experience across analytics tools and databases, I'm committed to supporting data-driven decision making and continuous skill development.
+            I'm a Junior Data Analyst specializing in Power BI dashboards, SQL data extraction, and business reporting. Currently at Shankar Packagings, and previously at JHEx Consulting LLP, I transform raw data using Power Query, create interactive dashboards with DAX measures, and extract complex data from MySQL databases. With hands-on experience across analytics tools and databases, I'm committed to supporting data-driven decision making and continuous skill development.
           </p>
         </div>
 
