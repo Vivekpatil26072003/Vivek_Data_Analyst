@@ -65,7 +65,7 @@ export function Footer() {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="https://github.com/vivekpatil"
+                href="https://www.linkedin.com/in/vivekpatil0088"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors"

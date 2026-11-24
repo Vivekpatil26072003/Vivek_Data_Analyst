@@ -77,12 +77,12 @@ export function ExperiencePhotoGallery({ images, company }: ExperiencePhotoGalle
   return (
     <div className="space-y-4">
       <div className="overflow-hidden rounded-xl border border-border bg-card shadow-sm">
-        <div className="relative aspect-[16/10] w-full overflow-hidden">
+        <div className="relative aspect-[16/10] w-full overflow-hidden bg-muted">
           <Image
             src={selectedImage.src}
             alt={selectedImage.alt}
             fill
-            className="object-cover"
+            className="object-contain"
             sizes="(max-width: 768px) 100vw, 66vw"
             priority
           />

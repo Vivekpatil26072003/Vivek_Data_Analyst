@@ -150,17 +150,17 @@ export const experiences: Experience[] = [
     ],
     images: [
       {
-        src: '/companies/shankar-packaging/photo-1.jpg',
+        src: '/companies/shankar-packaging/photo-1.jpeg',
         alt: 'Shankar Packaging workspace',
         caption: 'Workspace at Shankar Packaging',
       },
       {
-        src: '/companies/shankar-packaging/photo-2.jpg',
+        src: '/companies/shankar-packaging/photo-2.jpeg',
         alt: 'Production reporting dashboard',
         caption: 'Production reporting dashboard',
       },
       {
-        src: '/companies/shankar-packaging/photo-3.jpg',
+        src: '/companies/shankar-packaging/photo-3.jpeg',
         alt: 'Team collaboration session',
         caption: 'Collaborating with the operations team',
       },
