@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .font-mono {
+    font-family: 'IBM Plex Mono', monospace;
+  }
+
+  /* Animation utilities */
+  .animate-fadeInUp {
+    animation: fadeInUp 0.6s ease-out forwards;
+  }
+
+  .animate-slideInLeft {
+    animation: slideInLeft 0.6s ease-out forwards;
+  }
+
+  .animate-slideInRight {
+    animation: slideInRight 0.6s ease-out forwards;
+  }
+
+  .animate-drawLine {
+    animation: drawLine 1.2s ease-out forwards;
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animate-pulse-subtle {
+    animation: pulseSoft 2s ease-in-out infinite;
+  }
+}
+
+@layer base {
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInRight {
+    from {
+      opacity: 0;
+      transform: translateX(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes drawLine {
+    from {
+      stroke-dashoffset: 1000;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes pulseSoft {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.7;
+    }
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: -1000px 0;
+    }
+    100% {
+      background-position: 1000px 0;
+    }
+  }
+}
+
+@layer base {
+  :root {
+    /* Data Analyst Portfolio - Light Mode - Charcoal & Emerald Theme */
+    --background: 248 13% 98%;
+    --foreground: 217 11% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 217 11% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 217 11% 15%;
+    /* Primary: Dark Charcoal */
+    --primary: 217 11% 15%;
+    --primary-foreground: 0 0% 98%;
+    /* Secondary: Light Gray */
+    --secondary: 215 14% 91%;
+    --secondary-foreground: 217 11% 15%;
+    /* Muted: Subtle Gray */
+    --muted: 215 13% 84%;
+    --muted-foreground: 215 8% 45%;
+    /* Accent: Emerald Green */
+    --accent: 160 84% 39%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 215 14% 88%;
+    --input: 215 14% 88%;
+    --ring: 160 84% 39%;
+    /* Data visualization colors */
+    --chart-1: 160 84% 39%;
+    --chart-2: 20 100% 50%;
+    --chart-3: 200 70% 40%;
+    --chart-4: 39 100% 50%;
+    --chart-5: 280 100% 50%;
+    --radius: 0.5rem;
+    --sidebar-background: 248 13% 98%;
+    --sidebar-foreground: 217 11% 15%;
+    --sidebar-primary: 217 11% 15%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 160 84% 39%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 215 14% 88%;
+    --sidebar-ring: 160 84% 39%;
+  }
+  .dark {
+    /* Data Analyst Portfolio - Dark Mode - Charcoal & Emerald Theme */
+    --background: 217 11% 9%;
+    --foreground: 217 11% 96%;
+    --card: 217 11% 13%;
+    --card-foreground: 217 11% 96%;
+    --popover: 217 11% 13%;
+    --popover-foreground: 217 11% 96%;
+    --primary: 217 11% 96%;
+    --primary-foreground: 217 11% 9%;
+    --secondary: 217 11% 21%;
+    --secondary-foreground: 217 11% 96%;
+    --muted: 217 11% 21%;
+    --muted-foreground: 217 8% 59%;
+    --accent: 160 84% 49%;
+    --accent-foreground: 217 11% 9%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 217 11% 19%;
+    --input: 217 11% 19%;
+    --ring: 160 84% 49%;
+    --chart-1: 160 84% 49%;
+    --chart-2: 20 100% 60%;
+    --chart-3: 200 70% 50%;
+    --chart-4: 39 100% 60%;
+    --chart-5: 280 100% 60%;
+    --sidebar-background: 217 11% 13%;
+    --sidebar-foreground: 217 11% 96%;
+    --sidebar-primary: 160 84% 49%;
+    --sidebar-primary-foreground: 217 11% 9%;
+    --sidebar-accent: 160 84% 49%;
+    --sidebar-accent-foreground: 217 11% 9%;
+    --sidebar-border: 217 11% 19%;
+    --sidebar-ring: 160 84% 49%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
